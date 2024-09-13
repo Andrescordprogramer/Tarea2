@@ -2,3 +2,4 @@ C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\ListasEnlazadas\obj
 C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\ListasEnlazadas\obj\Debug\net8.0\ListasEnlazadas.AssemblyInfoInputs.cache
 C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\ListasEnlazadas\obj\Debug\net8.0\ListasEnlazadas.AssemblyInfo.cs
 C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\ListasEnlazadas\obj\Debug\net8.0\ListasEnlazadas.csproj.CoreCompileInputs.cache
+C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\ListasEnlazadas\obj\Debug\net8.0\ListasEnlazadas.sourcelink.json
