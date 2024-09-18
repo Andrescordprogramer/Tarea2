@@ -1,0 +1,15 @@
+C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\Tarea2Listas\Tarea2Listas\bin\Debug\net8.0\Tarea2Listas.exe
+C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\Tarea2Listas\Tarea2Listas\bin\Debug\net8.0\Tarea2Listas.deps.json
+C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\Tarea2Listas\Tarea2Listas\bin\Debug\net8.0\Tarea2Listas.runtimeconfig.json
+C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\Tarea2Listas\Tarea2Listas\bin\Debug\net8.0\Tarea2Listas.dll
+C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\Tarea2Listas\Tarea2Listas\bin\Debug\net8.0\Tarea2Listas.pdb
+C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\Tarea2Listas\Tarea2Listas\obj\Debug\net8.0\Tarea2Listas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\Tarea2Listas\Tarea2Listas\obj\Debug\net8.0\Tarea2Listas.AssemblyInfoInputs.cache
+C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\Tarea2Listas\Tarea2Listas\obj\Debug\net8.0\Tarea2Listas.AssemblyInfo.cs
+C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\Tarea2Listas\Tarea2Listas\obj\Debug\net8.0\Tarea2Listas.csproj.CoreCompileInputs.cache
+C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\Tarea2Listas\Tarea2Listas\obj\Debug\net8.0\Tarea2Listas.sourcelink.json
+C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\Tarea2Listas\Tarea2Listas\obj\Debug\net8.0\Tarea2Listas.dll
+C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\Tarea2Listas\Tarea2Listas\obj\Debug\net8.0\refint\Tarea2Listas.dll
+C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\Tarea2Listas\Tarea2Listas\obj\Debug\net8.0\Tarea2Listas.pdb
+C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\Tarea2Listas\Tarea2Listas\obj\Debug\net8.0\Tarea2Listas.genruntimeconfig.cache
+C:\Users\Esteb\Documentos\Datos I\Trabajos extraclase\Tarea2\Tarea2Listas\Tarea2Listas\obj\Debug\net8.0\ref\Tarea2Listas.dll

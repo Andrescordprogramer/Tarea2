@@ -1,11 +1,40 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "MSTest.Sdk/3.6.0": {
+        "type": "package"
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MSTest.Sdk/3.6.0": {
+      "sha512": "pMElotYd7XLghiPHexL4VWbJ5SglJns0iWyDjejaQenAPReFwuT8ztiPngt9AoPWdRn9e4l1fOAYqViw9g6ZZA==",
+      "type": "package",
+      "path": "mstest.sdk/3.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "Sdk/Features/Aspire.targets",
+        "Sdk/Features/Playwright.targets",
+        "Sdk/Runner/ClassicEngine.targets",
+        "Sdk/Runner/Common.targets",
+        "Sdk/Runner/NativeAOT.targets",
+        "Sdk/Runner/Runner.targets",
+        "Sdk/Sdk.props",
+        "Sdk/Sdk.targets",
+        "Sdk/VSTest/VSTest.targets",
+        "mstest.sdk.3.6.0.nupkg.sha512",
+        "mstest.sdk.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "MSTest.Sdk >= 3.6.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Esteb\\.nuget\\packages\\": {},
@@ -56,6 +85,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "MSTest.Sdk": {
+            "target": "Package",
+            "version": "[3.6.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

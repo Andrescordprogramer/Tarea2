@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 274,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +34,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\ListasEnlazadas\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\ListasEnlazadas\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T02:58:54.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ListasEnlazadas.csproj",
               "DocumentMoniker": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\ListasEnlazadas\\ListasEnlazadas.csproj",
               "RelativeDocumentMoniker": "ListasEnlazadas.csproj",
               "ToolTip": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\ListasEnlazadas\\ListasEnlazadas.csproj",
               "RelativeToolTip": "ListasEnlazadas.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-13T02:58:51.074Z"
+              "WhenOpened": "2024-09-17T09:20:43.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\ListasEnlazadas\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\ListasEnlazadas\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T09:20:38.099Z",
+              "EditorCaption": ""
             }
           ]
         }
