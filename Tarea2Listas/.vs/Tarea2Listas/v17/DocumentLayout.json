@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\Tarea2Listas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3A3ED04-4DD8-4C65-A3F8-D50A163C6B16}|TestOnee\\TestOnee.csproj|c:\\users\\esteb\\documentos\\datos i\\trabajos extraclase\\tarea2\\tarea2listas\\testonee\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3A3ED04-4DD8-4C65-A3F8-D50A163C6B16}|TestOnee\\TestOnee.csproj|solutionrelative:testonee\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4E911D8-DB90-4D50-9ED4-AB75173F9A59}|Tarea2Listas\\Tarea2Listas.csproj|c:\\users\\esteb\\documentos\\datos i\\trabajos extraclase\\tarea2\\tarea2listas\\tarea2listas\\listadoble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E911D8-DB90-4D50-9ED4-AB75173F9A59}|Tarea2Listas\\Tarea2Listas.csproj|solutionrelative:tarea2listas\\listadoble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4E911D8-DB90-4D50-9ED4-AB75173F9A59}|Tarea2Listas\\Tarea2Listas.csproj|c:\\users\\esteb\\documentos\\datos i\\trabajos extraclase\\tarea2\\tarea2listas\\tarea2listas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4E911D8-DB90-4D50-9ED4-AB75173F9A59}|Tarea2Listas\\Tarea2Listas.csproj|solutionrelative:tarea2listas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4E911D8-DB90-4D50-9ED4-AB75173F9A59}|Tarea2Listas\\Tarea2Listas.csproj|c:\\users\\esteb\\documentos\\datos i\\trabajos extraclase\\tarea2\\tarea2listas\\tarea2listas\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4E911D8-DB90-4D50-9ED4-AB75173F9A59}|Tarea2Listas\\Tarea2Listas.csproj|solutionrelative:tarea2listas\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3A3ED04-4DD8-4C65-A3F8-D50A163C6B16}|TestOnee\\TestOnee.csproj|c:\\users\\esteb\\documentos\\datos i\\trabajos extraclase\\tarea2\\tarea2listas\\testonee\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3A3ED04-4DD8-4C65-A3F8-D50A163C6B16}|TestOnee\\TestOnee.csproj|solutionrelative:testonee\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4E911D8-DB90-4D50-9ED4-AB75173F9A59}|Tarea2Listas\\Tarea2Listas.csproj|c:\\users\\esteb\\documentos\\datos i\\trabajos extraclase\\tarea2\\tarea2listas\\tarea2listas\\listaenlazada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4E911D8-DB90-4D50-9ED4-AB75173F9A59}|Tarea2Listas\\Tarea2Listas.csproj|solutionrelative:tarea2listas\\listaenlazada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4E911D8-DB90-4D50-9ED4-AB75173F9A59}|Tarea2Listas\\Tarea2Listas.csproj|c:\\users\\esteb\\documentos\\datos i\\trabajos extraclase\\tarea2\\tarea2listas\\tarea2listas\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E911D8-DB90-4D50-9ED4-AB75173F9A59}|Tarea2Listas\\Tarea2Listas.csproj|solutionrelative:tarea2listas\\nodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 274,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,41 +42,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ListaEnlazada.cs",
-              "DocumentMoniker": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\Tarea2Listas\\Tarea2Listas\\ListaEnlazada.cs",
-              "RelativeDocumentMoniker": "Tarea2Listas\\ListaEnlazada.cs",
-              "ToolTip": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\Tarea2Listas\\Tarea2Listas\\ListaEnlazada.cs",
-              "RelativeToolTip": "Tarea2Listas\\ListaEnlazada.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "DocumentIndex": 0,
+              "Title": "ListaDoble.cs",
+              "DocumentMoniker": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\Tarea2Listas\\Tarea2Listas\\ListaDoble.cs",
+              "RelativeDocumentMoniker": "Tarea2Listas\\ListaDoble.cs",
+              "ToolTip": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\Tarea2Listas\\Tarea2Listas\\ListaDoble.cs",
+              "RelativeToolTip": "Tarea2Listas\\ListaDoble.cs",
+              "ViewState": "AQIAAMoAAAAAAAAAAAAowNsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T00:40:47.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\Tarea2Listas\\TestOnee\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "TestOnee\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\Tarea2Listas\\TestOnee\\UnitTest1.cs",
-              "RelativeToolTip": "TestOnee\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T11:02:00.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Nodo.cs",
-              "DocumentMoniker": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\Tarea2Listas\\Tarea2Listas\\Nodo.cs",
-              "RelativeDocumentMoniker": "Tarea2Listas\\Nodo.cs",
-              "ToolTip": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\Tarea2Listas\\Tarea2Listas\\Nodo.cs",
-              "RelativeToolTip": "Tarea2Listas\\Nodo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T09:21:17.951Z",
               "EditorCaption": ""
             },
             {
@@ -87,9 +61,35 @@
               "RelativeDocumentMoniker": "Tarea2Listas\\Program.cs",
               "ToolTip": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\Tarea2Listas\\Tarea2Listas\\Program.cs",
               "RelativeToolTip": "Tarea2Listas\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAowBcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T09:09:01.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\Tarea2Listas\\TestOnee\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestOnee\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\Tarea2Listas\\TestOnee\\UnitTest1.cs",
+              "RelativeToolTip": "TestOnee\\UnitTest1.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAqwJsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T11:02:00.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Nodo.cs",
+              "DocumentMoniker": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\Tarea2Listas\\Tarea2Listas\\Nodo.cs",
+              "RelativeDocumentMoniker": "Tarea2Listas\\Nodo.cs",
+              "ToolTip": "C:\\Users\\Esteb\\Documentos\\Datos I\\Trabajos extraclase\\Tarea2\\Tarea2Listas\\Tarea2Listas\\Nodo.cs",
+              "RelativeToolTip": "Tarea2Listas\\Nodo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T09:21:17.951Z",
               "EditorCaption": ""
             }
           ]
