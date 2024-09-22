@@ -68,6 +68,26 @@ public class ListaDoble
         ActualizarMedio();
     }
 
+    public void AddLast(int Value)
+    {
+        Nodo nuevoNodo = new Nodo(Value);
+
+        if (cabeza == null)
+        {
+            cabeza = nuevoNodo;
+            cola = nuevoNodo;
+        }
+        
+        else
+        {
+            cola.Siguiente = nuevoNodo;
+            nuevoNodo.Anterior = cola;
+            cola = nuevoNodo;
+        }
+
+    }
+
+
     public int DeleteFirst()
     {
         int eliminado = cabeza.Valor;
@@ -159,85 +179,56 @@ public class ListaDoble
     {
         if (listA == null || listB == null)
         {
-            throw new ArgumentNullException("listA and listB cannot be null");
+            throw new ArgumentNullException("listA y listB no pueden estar vacias");
         }
 
-        Nodo nodoA = direction == SortDirection.Ascending ? listA.cabeza : listA.cola;
-        Nodo nodoB = listB.cabeza;
-
-        while (nodoB != null)
+        if (direction == SortDirection.Ascending)
         {
-            Nodo nuevoNodo = new Nodo(nodoB.Valor);
+            ListaDoble mergedList = new ListaDoble();
 
-            if (nodoA == null)
-            {
-                // Si listA está vacía, asigna el primer nodo
-                listA.cabeza = nuevoNodo;
-                listA.cola = nuevoNodo;
-            }
-            else if (direction == SortDirection.Ascending)
-            {
-                // Inserta en orden ascendente
-                while (nodoA != null && nodoA.Valor <= nodoB.Valor)
-                {
-                    nodoA = nodoA.Siguiente;
-                }
+            Nodo currentA = listA.cabeza;
+            Nodo currentB = listB.cabeza;
 
-                if (nodoA == null)
+            while (currentA != null && currentB != null)
+            {
+                if (currentA.Valor <= currentB.Valor)
                 {
-                    // Inserta al final
-                    listA.cola.Siguiente = nuevoNodo;
-                    nuevoNodo.Anterior = listA.cola;
-                    listA.cola = nuevoNodo;
-                }
-                else if (nodoA == listA.cabeza)
-                {
-                    // Inserta al principio
-                    nuevoNodo.Siguiente = listA.cabeza;
-                    listA.cabeza.Anterior = nuevoNodo;
-                    listA.cabeza = nuevoNodo;
+                    mergedList.AddLast(currentA.Valor);
+                    currentA = currentA.Siguiente;
                 }
                 else
                 {
-                    // Inserta en el medio
-                    nuevoNodo.Anterior = nodoA.Anterior;
-                    nuevoNodo.Siguiente = nodoA;
-                    nodoA.Anterior.Siguiente = nuevoNodo;
-                    nodoA.Anterior = nuevoNodo;
+                    mergedList.AddLast(currentB.Valor);
+                    currentB = currentB.Siguiente;
                 }
             }
-            else // Orden descendente
+
+            while (currentA != null)
             {
-                while (nodoA != null && nodoA.Valor >= nodoB.Valor)
-                {
-                    nodoA = nodoA.Anterior;
-                }
-
-                if (nodoA == null) // Inserta al final (nuevo principio de la lista)
-                {
-                    nuevoNodo.Siguiente = listA.cabeza;
-                    listA.cabeza.Anterior = nuevoNodo;
-                    listA.cabeza = nuevoNodo;
-                }
-                else if (nodoA == listA.cola) // Inserta al principio (nuevo final de la lista)
-                {
-                    listA.cola.Siguiente = nuevoNodo;
-                    nuevoNodo.Anterior = listA.cola;
-                    listA.cola = nuevoNodo;
-                }
-                else // Inserta en el medio
-                {
-                    nuevoNodo.Siguiente = nodoA.Siguiente;
-                    nuevoNodo.Anterior = nodoA;
-                    nodoA.Siguiente.Anterior = nuevoNodo;
-                    nodoA.Siguiente = nuevoNodo;
-                }
+                mergedList.AddLast(currentA.Valor);
+                currentA = currentA.Siguiente;
             }
 
-            nodoB = nodoB.Siguiente;
-            listA.tamano++;
-        }
+            while (currentB != null)
+            {
+                mergedList.AddLast(currentB.Valor);
+                currentB = currentB.Siguiente;
+            }
 
-        listA.ActualizarMedio();
+            cabeza = mergedList.cabeza;
+            cola = mergedList.cola;
+            tamano = mergedList.tamano;
+            medio = mergedList.medio;
+        }
+        else if (direction == SortDirection.Descending)
+        {
+            ListaDoble mergedList = new ListaDoble();
+            mergedList.MergeSorted(listA, listB, SortDirection.Ascending);
+            mergedList.Invertir();
+            listA.cabeza = mergedList.cabeza;
+            listA.cola = mergedList.cola;
+            listA.tamano = mergedList.tamano;
+            listA.medio = mergedList.medio;
+        }
     }
 }
