@@ -1,12 +1,14 @@
 ﻿using Tarea2Listas;
 
+// Clase que representa una lista doblemente enlazada
 public class ListaDoble
 {
-    public Nodo cabeza;
-    public Nodo cola;
-    public int tamano;
+    public Nodo cabeza; // Primer nodo de la lista
+    public Nodo cola; // Último nodo de la lista
+    public int tamano; // Tamaño de la lista
     private Nodo medio; // Para guardar la referencia al nodo medio
 
+    // Constructor de la clase ListaDoble
     public ListaDoble()
     {
         cabeza = null;
@@ -15,9 +17,9 @@ public class ListaDoble
         medio = null;
     }
 
+    // Método privado para actualizar la referencia del nodo medio
     private void ActualizarMedio()
     {
-        // Actualiza la referencia del nodo medio
         int medioIndex = tamano / 2;
         Nodo actual = cabeza;
         for (int i = 0; i < medioIndex; i++)
@@ -27,6 +29,7 @@ public class ListaDoble
         medio = actual;
     }
 
+    // Método para insertar un valor en orden en la lista
     public void InsertInOrder(int value)
     {
         Nodo nuevoNodo = new Nodo(value);
@@ -42,14 +45,13 @@ public class ListaDoble
             cabeza.Anterior = nuevoNodo;
             cabeza = nuevoNodo;
         }
-        else //cabeza.valor < value
+        else
         {
             Nodo aux = cabeza;
-            while(aux.Siguiente != null && aux.Siguiente.Valor < value)
+            while (aux.Siguiente != null && aux.Siguiente.Valor < value)
             {
                 aux = aux.Siguiente;
             }
-            // aux es menor a value o es el último
             if (aux.Siguiente == null)
             {
                 aux.Siguiente = nuevoNodo;
@@ -68,6 +70,7 @@ public class ListaDoble
         ActualizarMedio();
     }
 
+    // Método para añadir un nodo al final de la lista
     public void AddLast(int Value)
     {
         Nodo nuevoNodo = new Nodo(Value);
@@ -77,17 +80,15 @@ public class ListaDoble
             cabeza = nuevoNodo;
             cola = nuevoNodo;
         }
-        
         else
         {
             cola.Siguiente = nuevoNodo;
             nuevoNodo.Anterior = cola;
             cola = nuevoNodo;
         }
-
     }
 
-
+    // Método para eliminar el primer nodo de la lista
     public int DeleteFirst()
     {
         int eliminado = cabeza.Valor;
@@ -98,6 +99,7 @@ public class ListaDoble
         return eliminado;
     }
 
+    // Método para eliminar el último nodo de la lista
     public int DeleteLast()
     {
         int eliminado = cola.Valor;
@@ -108,6 +110,7 @@ public class ListaDoble
         return eliminado;
     }
 
+    // Método para eliminar un nodo con un valor específico de la lista
     public bool DeleteValue(int value)
     {
         Nodo aux = cabeza;
@@ -116,12 +119,11 @@ public class ListaDoble
         {
             aux = aux.Siguiente;
         }
-        
+
         if (aux.Siguiente == null)
         {
             return false;
         }
-
         else
         {
             if (aux.Siguiente.Siguiente == null)
@@ -140,6 +142,7 @@ public class ListaDoble
         }
     }
 
+    // Método para invertir la lista
     public void Invertir()
     {
         if (cabeza == null || cabeza.Siguiente == null)
@@ -168,13 +171,14 @@ public class ListaDoble
         ActualizarMedio();
     }
 
-
+    // Método para obtener el valor del nodo medio
     public int GetMiddle()
     {
         if (medio == null) throw new InvalidOperationException("La lista está vacía");
         return medio.Valor;
     }
 
+    // Método para fusionar dos listas ordenadas en una nueva lista ordenada
     public void MergeSorted(ListaDoble listA, ListaDoble listB, SortDirection direction)
     {
         if (listA == null || listB == null)

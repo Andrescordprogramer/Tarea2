@@ -150,7 +150,7 @@ namespace TestOne
             listaB.InsertInOrder(6);
 
             listaA.MergeSorted(listaA, listaB, SortDirection.Descending);
-            Console.WriteLine(listaA.cabeza.Valor);
+
             Assert.AreEqual(6, listaA.cabeza.Valor);
             Assert.AreEqual(5, listaA.cabeza.Siguiente.Valor);
             Assert.AreEqual(1, listaA.cola.Valor);
